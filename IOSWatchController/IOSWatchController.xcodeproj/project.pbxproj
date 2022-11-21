@@ -1,0 +1,1523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13BFA85422DF4D047AC7C4A4 /* Pods_IOSWatchControllerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A2493F4EEFBD8E3DE0F364 /* Pods_IOSWatchControllerTests.framework */; };
+		3270BF414617DA7559452932 /* Pods_IOSWatchController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DEF3082F53DA95D39F1B5A7 /* Pods_IOSWatchController.framework */; };
+		563138F427A6D0C90057AAAF /* IOSWatchControllerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563138F327A6D0C90057AAAF /* IOSWatchControllerApp.swift */; };
+		563138F627A6D0C90057AAAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563138F527A6D0C90057AAAF /* ContentView.swift */; };
+		563138F827A6D0CB0057AAAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 563138F727A6D0CB0057AAAF /* Assets.xcassets */; };
+		563138FB27A6D0CB0057AAAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 563138FA27A6D0CB0057AAAF /* Preview Assets.xcassets */; };
+		5631390527A6D0CB0057AAAF /* IOSWatchControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5631390427A6D0CB0057AAAF /* IOSWatchControllerTests.swift */; };
+		5631390F27A6D0CC0057AAAF /* IOSWatchControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5631390E27A6D0CC0057AAAF /* IOSWatchControllerUITests.swift */; };
+		5631391127A6D0CC0057AAAF /* IOSWatchControllerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5631391027A6D0CC0057AAAF /* IOSWatchControllerUITestsLaunchTests.swift */; };
+		5631391527A6D0CC0057AAAF /* IOSWatchController WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5631391427A6D0CC0057AAAF /* IOSWatchController WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5631391A27A6D0CD0057AAAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5631391927A6D0CD0057AAAF /* Assets.xcassets */; };
+		5631392027A6D0CD0057AAAF /* IOSWatchController WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5631391F27A6D0CD0057AAAF /* IOSWatchController WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5631392527A6D0CD0057AAAF /* IOSWatchControllerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5631392427A6D0CD0057AAAF /* IOSWatchControllerApp.swift */; };
+		5631392727A6D0CD0057AAAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5631392627A6D0CD0057AAAF /* ContentView.swift */; };
+		5631392927A6D0CD0057AAAF /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5631392827A6D0CD0057AAAF /* NotificationController.swift */; };
+		5631392B27A6D0CD0057AAAF /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5631392A27A6D0CD0057AAAF /* NotificationView.swift */; };
+		5631392D27A6D0CD0057AAAF /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5631392C27A6D0CD0057AAAF /* ComplicationController.swift */; };
+		5631392F27A6D0CE0057AAAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5631392E27A6D0CE0057AAAF /* Assets.xcassets */; };
+		5631393227A6D0CE0057AAAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5631393127A6D0CE0057AAAF /* Preview Assets.xcassets */; };
+		5631393E27A6D0CE0057AAAF /* IOSWatchController_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5631393D27A6D0CE0057AAAF /* IOSWatchController_WatchKit_AppTests.swift */; };
+		5631394827A6D0CE0057AAAF /* IOSWatchController_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5631394727A6D0CE0057AAAF /* IOSWatchController_WatchKit_AppUITests.swift */; };
+		5631394A27A6D0CE0057AAAF /* IOSWatchController_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5631394927A6D0CE0057AAAF /* IOSWatchController_WatchKit_AppUITestsLaunchTests.swift */; };
+		845FE3F8DE83ABB81EB98117 /* Pods_IOSWatchController_WatchKit_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1212FF71F34777110E859F /* Pods_IOSWatchController_WatchKit_AppTests.framework */; };
+		8F0DADCE3E1C25DF588F817F /* Pods_IOSWatchController_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06DE32C2BD78C91E153DBE91 /* Pods_IOSWatchController_WatchKit_Extension.framework */; };
+		A7EB9A4D1CFFF2CAF42859FF /* Pods_IOSWatchController_IOSWatchControllerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE1377113749830390A7D3E /* Pods_IOSWatchController_IOSWatchControllerUITests.framework */; };
+		CA4997BC3490E8FDE4594F26 /* Pods_IOSWatchController_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CBB8402CF36BFDF6723CB5 /* Pods_IOSWatchController_WatchKit_App.framework */; };
+		F8935DDCECD6DB81305AEADE /* Pods_IOSWatchController_WatchKit_App_IOSWatchController_WatchKit_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158AE09DFCF6B678759331AC /* Pods_IOSWatchController_WatchKit_App_IOSWatchController_WatchKit_AppUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5631390127A6D0CB0057AAAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 563138E827A6D0C90057AAAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 563138EF27A6D0C90057AAAF;
+			remoteInfo = IOSWatchController;
+		};
+		5631390B27A6D0CC0057AAAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 563138E827A6D0C90057AAAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 563138EF27A6D0C90057AAAF;
+			remoteInfo = IOSWatchController;
+		};
+		5631391627A6D0CC0057AAAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 563138E827A6D0C90057AAAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5631391327A6D0CC0057AAAF;
+			remoteInfo = "IOSWatchController WatchKit App";
+		};
+		5631392127A6D0CD0057AAAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 563138E827A6D0C90057AAAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5631391E27A6D0CD0057AAAF;
+			remoteInfo = "IOSWatchController WatchKit Extension";
+		};
+		5631393A27A6D0CE0057AAAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 563138E827A6D0C90057AAAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5631391E27A6D0CD0057AAAF;
+			remoteInfo = "IOSWatchController WatchKit Extension";
+		};
+		5631394427A6D0CE0057AAAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 563138E827A6D0C90057AAAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5631391327A6D0CC0057AAAF;
+			remoteInfo = "IOSWatchController WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5631395027A6D0CE0057AAAF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5631392027A6D0CD0057AAAF /* IOSWatchController WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5631395427A6D0CE0057AAAF /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				5631391527A6D0CC0057AAAF /* IOSWatchController WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		06DE32C2BD78C91E153DBE91 /* Pods_IOSWatchController_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOSWatchController_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		158AE09DFCF6B678759331AC /* Pods_IOSWatchController_WatchKit_App_IOSWatchController_WatchKit_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOSWatchController_WatchKit_App_IOSWatchController_WatchKit_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3767EA960DAE2EB1582E8427 /* Pods-IOSWatchController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSWatchController.debug.xcconfig"; path = "Target Support Files/Pods-IOSWatchController/Pods-IOSWatchController.debug.xcconfig"; sourceTree = "<group>"; };
+		3987817E897EE1B36277A124 /* Pods-IOSWatchController WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSWatchController WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-IOSWatchController WatchKit App/Pods-IOSWatchController WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		3BCBAC48E1EF597DF137B49A /* Pods-IOSWatchController WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSWatchController WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-IOSWatchController WatchKit App/Pods-IOSWatchController WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		3DE1377113749830390A7D3E /* Pods_IOSWatchController_IOSWatchControllerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOSWatchController_IOSWatchControllerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E865C7E95E70FC11CCAA263 /* Pods-IOSWatchController WatchKit AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSWatchController WatchKit AppTests.debug.xcconfig"; path = "Target Support Files/Pods-IOSWatchController WatchKit AppTests/Pods-IOSWatchController WatchKit AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		417A20E2A4A5061998375BBB /* Pods-IOSWatchController-IOSWatchControllerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSWatchController-IOSWatchControllerUITests.debug.xcconfig"; path = "Target Support Files/Pods-IOSWatchController-IOSWatchControllerUITests/Pods-IOSWatchController-IOSWatchControllerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B1212FF71F34777110E859F /* Pods_IOSWatchController_WatchKit_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOSWatchController_WatchKit_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52B93705A2732EF3933C7EA0 /* Pods-IOSWatchController-IOSWatchControllerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSWatchController-IOSWatchControllerUITests.release.xcconfig"; path = "Target Support Files/Pods-IOSWatchController-IOSWatchControllerUITests/Pods-IOSWatchController-IOSWatchControllerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		546C71AB540CDA2C5436BCE0 /* Pods-IOSWatchController WatchKit App-IOSWatchController WatchKit AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSWatchController WatchKit App-IOSWatchController WatchKit AppUITests.release.xcconfig"; path = "Target Support Files/Pods-IOSWatchController WatchKit App-IOSWatchController WatchKit AppUITests/Pods-IOSWatchController WatchKit App-IOSWatchController WatchKit AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		563138F027A6D0C90057AAAF /* IOSWatchController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSWatchController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		563138F327A6D0C90057AAAF /* IOSWatchControllerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSWatchControllerApp.swift; sourceTree = "<group>"; };
+		563138F527A6D0C90057AAAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		563138F727A6D0CB0057AAAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		563138FA27A6D0CB0057AAAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5631390027A6D0CB0057AAAF /* IOSWatchControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSWatchControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5631390427A6D0CB0057AAAF /* IOSWatchControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSWatchControllerTests.swift; sourceTree = "<group>"; };
+		5631390A27A6D0CC0057AAAF /* IOSWatchControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSWatchControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5631390E27A6D0CC0057AAAF /* IOSWatchControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSWatchControllerUITests.swift; sourceTree = "<group>"; };
+		5631391027A6D0CC0057AAAF /* IOSWatchControllerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSWatchControllerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5631391427A6D0CC0057AAAF /* IOSWatchController WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOSWatchController WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5631391927A6D0CD0057AAAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5631391F27A6D0CD0057AAAF /* IOSWatchController WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "IOSWatchController WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5631392427A6D0CD0057AAAF /* IOSWatchControllerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSWatchControllerApp.swift; sourceTree = "<group>"; };
+		5631392627A6D0CD0057AAAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5631392827A6D0CD0057AAAF /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		5631392A27A6D0CD0057AAAF /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		5631392C27A6D0CD0057AAAF /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		5631392E27A6D0CE0057AAAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5631393127A6D0CE0057AAAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5631393327A6D0CE0057AAAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5631393427A6D0CE0057AAAF /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		5631393927A6D0CE0057AAAF /* IOSWatchController WatchKit AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOSWatchController WatchKit AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5631393D27A6D0CE0057AAAF /* IOSWatchController_WatchKit_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSWatchController_WatchKit_AppTests.swift; sourceTree = "<group>"; };
+		5631394327A6D0CE0057AAAF /* IOSWatchController WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOSWatchController WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5631394727A6D0CE0057AAAF /* IOSWatchController_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSWatchController_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
+		5631394927A6D0CE0057AAAF /* IOSWatchController_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSWatchController_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		56ED265B27AF3FB500EA6396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8245A2528651B661B12018F5 /* Pods-IOSWatchController WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSWatchController WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-IOSWatchController WatchKit Extension/Pods-IOSWatchController WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		8DEF3082F53DA95D39F1B5A7 /* Pods_IOSWatchController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOSWatchController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		976394CD6E25C1573BAC256A /* Pods-IOSWatchController WatchKit App-IOSWatchController WatchKit AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSWatchController WatchKit App-IOSWatchController WatchKit AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-IOSWatchController WatchKit App-IOSWatchController WatchKit AppUITests/Pods-IOSWatchController WatchKit App-IOSWatchController WatchKit AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A1A2493F4EEFBD8E3DE0F364 /* Pods_IOSWatchControllerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOSWatchControllerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2CBB8402CF36BFDF6723CB5 /* Pods_IOSWatchController_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOSWatchController_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C101D830F16B463078FD19A6 /* Pods-IOSWatchController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSWatchController.release.xcconfig"; path = "Target Support Files/Pods-IOSWatchController/Pods-IOSWatchController.release.xcconfig"; sourceTree = "<group>"; };
+		DA240317559CA4CA600AD0AD /* Pods-IOSWatchControllerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSWatchControllerTests.debug.xcconfig"; path = "Target Support Files/Pods-IOSWatchControllerTests/Pods-IOSWatchControllerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E038A2685F2955477769AFB4 /* Pods-IOSWatchController WatchKit AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSWatchController WatchKit AppTests.release.xcconfig"; path = "Target Support Files/Pods-IOSWatchController WatchKit AppTests/Pods-IOSWatchController WatchKit AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		EDC82E749AD13D9CE37E2746 /* Pods-IOSWatchControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSWatchControllerTests.release.xcconfig"; path = "Target Support Files/Pods-IOSWatchControllerTests/Pods-IOSWatchControllerTests.release.xcconfig"; sourceTree = "<group>"; };
+		FD42D8DC89993E9B434101E6 /* Pods-IOSWatchController WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSWatchController WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-IOSWatchController WatchKit Extension/Pods-IOSWatchController WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2640DFEE9071A7D757D026C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA4997BC3490E8FDE4594F26 /* Pods_IOSWatchController_WatchKit_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563138ED27A6D0C90057AAAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3270BF414617DA7559452932 /* Pods_IOSWatchController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563138FD27A6D0CB0057AAAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13BFA85422DF4D047AC7C4A4 /* Pods_IOSWatchControllerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5631390727A6D0CC0057AAAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7EB9A4D1CFFF2CAF42859FF /* Pods_IOSWatchController_IOSWatchControllerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5631391C27A6D0CD0057AAAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0DADCE3E1C25DF588F817F /* Pods_IOSWatchController_WatchKit_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5631393627A6D0CE0057AAAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845FE3F8DE83ABB81EB98117 /* Pods_IOSWatchController_WatchKit_AppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5631394027A6D0CE0057AAAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8935DDCECD6DB81305AEADE /* Pods_IOSWatchController_WatchKit_App_IOSWatchController_WatchKit_AppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		563138E727A6D0C90057AAAF = {
+			isa = PBXGroup;
+			children = (
+				563138F227A6D0C90057AAAF /* IOSWatchController */,
+				5631390327A6D0CB0057AAAF /* IOSWatchControllerTests */,
+				5631390D27A6D0CC0057AAAF /* IOSWatchControllerUITests */,
+				5631391827A6D0CC0057AAAF /* IOSWatchController WatchKit App */,
+				5631392327A6D0CD0057AAAF /* IOSWatchController WatchKit Extension */,
+				5631393C27A6D0CE0057AAAF /* IOSWatchController WatchKit AppTests */,
+				5631394627A6D0CE0057AAAF /* IOSWatchController WatchKit AppUITests */,
+				563138F127A6D0C90057AAAF /* Products */,
+				B54D145195C90D1B4C83E9D2 /* Pods */,
+				6929110F011F63341469F3B0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		563138F127A6D0C90057AAAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				563138F027A6D0C90057AAAF /* IOSWatchController.app */,
+				5631390027A6D0CB0057AAAF /* IOSWatchControllerTests.xctest */,
+				5631390A27A6D0CC0057AAAF /* IOSWatchControllerUITests.xctest */,
+				5631391427A6D0CC0057AAAF /* IOSWatchController WatchKit App.app */,
+				5631391F27A6D0CD0057AAAF /* IOSWatchController WatchKit Extension.appex */,
+				5631393927A6D0CE0057AAAF /* IOSWatchController WatchKit AppTests.xctest */,
+				5631394327A6D0CE0057AAAF /* IOSWatchController WatchKit AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		563138F227A6D0C90057AAAF /* IOSWatchController */ = {
+			isa = PBXGroup;
+			children = (
+				56ED265B27AF3FB500EA6396 /* Info.plist */,
+				563138F327A6D0C90057AAAF /* IOSWatchControllerApp.swift */,
+				563138F527A6D0C90057AAAF /* ContentView.swift */,
+				563138F727A6D0CB0057AAAF /* Assets.xcassets */,
+				563138F927A6D0CB0057AAAF /* Preview Content */,
+			);
+			path = IOSWatchController;
+			sourceTree = "<group>";
+		};
+		563138F927A6D0CB0057AAAF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				563138FA27A6D0CB0057AAAF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5631390327A6D0CB0057AAAF /* IOSWatchControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5631390427A6D0CB0057AAAF /* IOSWatchControllerTests.swift */,
+			);
+			path = IOSWatchControllerTests;
+			sourceTree = "<group>";
+		};
+		5631390D27A6D0CC0057AAAF /* IOSWatchControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5631390E27A6D0CC0057AAAF /* IOSWatchControllerUITests.swift */,
+				5631391027A6D0CC0057AAAF /* IOSWatchControllerUITestsLaunchTests.swift */,
+			);
+			path = IOSWatchControllerUITests;
+			sourceTree = "<group>";
+		};
+		5631391827A6D0CC0057AAAF /* IOSWatchController WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				5631391927A6D0CD0057AAAF /* Assets.xcassets */,
+			);
+			path = "IOSWatchController WatchKit App";
+			sourceTree = "<group>";
+		};
+		5631392327A6D0CD0057AAAF /* IOSWatchController WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5631392427A6D0CD0057AAAF /* IOSWatchControllerApp.swift */,
+				5631392627A6D0CD0057AAAF /* ContentView.swift */,
+				5631392827A6D0CD0057AAAF /* NotificationController.swift */,
+				5631392A27A6D0CD0057AAAF /* NotificationView.swift */,
+				5631392C27A6D0CD0057AAAF /* ComplicationController.swift */,
+				5631392E27A6D0CE0057AAAF /* Assets.xcassets */,
+				5631393327A6D0CE0057AAAF /* Info.plist */,
+				5631393427A6D0CE0057AAAF /* PushNotificationPayload.apns */,
+				5631393027A6D0CE0057AAAF /* Preview Content */,
+			);
+			path = "IOSWatchController WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		5631393027A6D0CE0057AAAF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5631393127A6D0CE0057AAAF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5631393C27A6D0CE0057AAAF /* IOSWatchController WatchKit AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5631393D27A6D0CE0057AAAF /* IOSWatchController_WatchKit_AppTests.swift */,
+			);
+			path = "IOSWatchController WatchKit AppTests";
+			sourceTree = "<group>";
+		};
+		5631394627A6D0CE0057AAAF /* IOSWatchController WatchKit AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5631394727A6D0CE0057AAAF /* IOSWatchController_WatchKit_AppUITests.swift */,
+				5631394927A6D0CE0057AAAF /* IOSWatchController_WatchKit_AppUITestsLaunchTests.swift */,
+			);
+			path = "IOSWatchController WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+		6929110F011F63341469F3B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DEF3082F53DA95D39F1B5A7 /* Pods_IOSWatchController.framework */,
+				B2CBB8402CF36BFDF6723CB5 /* Pods_IOSWatchController_WatchKit_App.framework */,
+				158AE09DFCF6B678759331AC /* Pods_IOSWatchController_WatchKit_App_IOSWatchController_WatchKit_AppUITests.framework */,
+				4B1212FF71F34777110E859F /* Pods_IOSWatchController_WatchKit_AppTests.framework */,
+				06DE32C2BD78C91E153DBE91 /* Pods_IOSWatchController_WatchKit_Extension.framework */,
+				3DE1377113749830390A7D3E /* Pods_IOSWatchController_IOSWatchControllerUITests.framework */,
+				A1A2493F4EEFBD8E3DE0F364 /* Pods_IOSWatchControllerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B54D145195C90D1B4C83E9D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3767EA960DAE2EB1582E8427 /* Pods-IOSWatchController.debug.xcconfig */,
+				C101D830F16B463078FD19A6 /* Pods-IOSWatchController.release.xcconfig */,
+				3BCBAC48E1EF597DF137B49A /* Pods-IOSWatchController WatchKit App.debug.xcconfig */,
+				3987817E897EE1B36277A124 /* Pods-IOSWatchController WatchKit App.release.xcconfig */,
+				976394CD6E25C1573BAC256A /* Pods-IOSWatchController WatchKit App-IOSWatchController WatchKit AppUITests.debug.xcconfig */,
+				546C71AB540CDA2C5436BCE0 /* Pods-IOSWatchController WatchKit App-IOSWatchController WatchKit AppUITests.release.xcconfig */,
+				3E865C7E95E70FC11CCAA263 /* Pods-IOSWatchController WatchKit AppTests.debug.xcconfig */,
+				E038A2685F2955477769AFB4 /* Pods-IOSWatchController WatchKit AppTests.release.xcconfig */,
+				FD42D8DC89993E9B434101E6 /* Pods-IOSWatchController WatchKit Extension.debug.xcconfig */,
+				8245A2528651B661B12018F5 /* Pods-IOSWatchController WatchKit Extension.release.xcconfig */,
+				417A20E2A4A5061998375BBB /* Pods-IOSWatchController-IOSWatchControllerUITests.debug.xcconfig */,
+				52B93705A2732EF3933C7EA0 /* Pods-IOSWatchController-IOSWatchControllerUITests.release.xcconfig */,
+				DA240317559CA4CA600AD0AD /* Pods-IOSWatchControllerTests.debug.xcconfig */,
+				EDC82E749AD13D9CE37E2746 /* Pods-IOSWatchControllerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		563138EF27A6D0C90057AAAF /* IOSWatchController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5631395527A6D0CE0057AAAF /* Build configuration list for PBXNativeTarget "IOSWatchController" */;
+			buildPhases = (
+				F31C105B7FBF30ABFA408C97 /* [CP] Check Pods Manifest.lock */,
+				563138EC27A6D0C90057AAAF /* Sources */,
+				563138ED27A6D0C90057AAAF /* Frameworks */,
+				563138EE27A6D0C90057AAAF /* Resources */,
+				5631395427A6D0CE0057AAAF /* Embed Watch Content */,
+				4B0ADF1EE53F7C1AB4A3E72D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5631391727A6D0CC0057AAAF /* PBXTargetDependency */,
+			);
+			name = IOSWatchController;
+			productName = IOSWatchController;
+			productReference = 563138F027A6D0C90057AAAF /* IOSWatchController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		563138FF27A6D0CB0057AAAF /* IOSWatchControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5631395827A6D0CE0057AAAF /* Build configuration list for PBXNativeTarget "IOSWatchControllerTests" */;
+			buildPhases = (
+				9C047C8614366C58E3D4F6C4 /* [CP] Check Pods Manifest.lock */,
+				563138FC27A6D0CB0057AAAF /* Sources */,
+				563138FD27A6D0CB0057AAAF /* Frameworks */,
+				563138FE27A6D0CB0057AAAF /* Resources */,
+				131B6D4E4C271508AC2E2ED7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5631390227A6D0CB0057AAAF /* PBXTargetDependency */,
+			);
+			name = IOSWatchControllerTests;
+			productName = IOSWatchControllerTests;
+			productReference = 5631390027A6D0CB0057AAAF /* IOSWatchControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5631390927A6D0CC0057AAAF /* IOSWatchControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5631395B27A6D0CE0057AAAF /* Build configuration list for PBXNativeTarget "IOSWatchControllerUITests" */;
+			buildPhases = (
+				C01741CCE097BFDB60CED233 /* [CP] Check Pods Manifest.lock */,
+				5631390627A6D0CC0057AAAF /* Sources */,
+				5631390727A6D0CC0057AAAF /* Frameworks */,
+				5631390827A6D0CC0057AAAF /* Resources */,
+				8296F6606F87CC46A3666AB9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5631390C27A6D0CC0057AAAF /* PBXTargetDependency */,
+			);
+			name = IOSWatchControllerUITests;
+			productName = IOSWatchControllerUITests;
+			productReference = 5631390A27A6D0CC0057AAAF /* IOSWatchControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		5631391327A6D0CC0057AAAF /* IOSWatchController WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5631395127A6D0CE0057AAAF /* Build configuration list for PBXNativeTarget "IOSWatchController WatchKit App" */;
+			buildPhases = (
+				407A0BE2DA02AFEFE783E7C1 /* [CP] Check Pods Manifest.lock */,
+				5631391227A6D0CC0057AAAF /* Resources */,
+				5631395027A6D0CE0057AAAF /* Embed App Extensions */,
+				2640DFEE9071A7D757D026C3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5631392227A6D0CD0057AAAF /* PBXTargetDependency */,
+			);
+			name = "IOSWatchController WatchKit App";
+			productName = "IOSWatchController WatchKit App";
+			productReference = 5631391427A6D0CC0057AAAF /* IOSWatchController WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		5631391E27A6D0CD0057AAAF /* IOSWatchController WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5631394D27A6D0CE0057AAAF /* Build configuration list for PBXNativeTarget "IOSWatchController WatchKit Extension" */;
+			buildPhases = (
+				3C3B1AA8B74116E0EE208C68 /* [CP] Check Pods Manifest.lock */,
+				5631391B27A6D0CD0057AAAF /* Sources */,
+				5631391C27A6D0CD0057AAAF /* Frameworks */,
+				5631391D27A6D0CD0057AAAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IOSWatchController WatchKit Extension";
+			productName = "IOSWatchController WatchKit Extension";
+			productReference = 5631391F27A6D0CD0057AAAF /* IOSWatchController WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		5631393827A6D0CE0057AAAF /* IOSWatchController WatchKit AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5631395E27A6D0CE0057AAAF /* Build configuration list for PBXNativeTarget "IOSWatchController WatchKit AppTests" */;
+			buildPhases = (
+				F98A157CFF62E3C18270495C /* [CP] Check Pods Manifest.lock */,
+				5631393527A6D0CE0057AAAF /* Sources */,
+				5631393627A6D0CE0057AAAF /* Frameworks */,
+				5631393727A6D0CE0057AAAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5631393B27A6D0CE0057AAAF /* PBXTargetDependency */,
+			);
+			name = "IOSWatchController WatchKit AppTests";
+			productName = "IOSWatchController WatchKit AppTests";
+			productReference = 5631393927A6D0CE0057AAAF /* IOSWatchController WatchKit AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5631394227A6D0CE0057AAAF /* IOSWatchController WatchKit AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5631396127A6D0CE0057AAAF /* Build configuration list for PBXNativeTarget "IOSWatchController WatchKit AppUITests" */;
+			buildPhases = (
+				6E42435906B16D6CB10AACFB /* [CP] Check Pods Manifest.lock */,
+				5631393F27A6D0CE0057AAAF /* Sources */,
+				5631394027A6D0CE0057AAAF /* Frameworks */,
+				5631394127A6D0CE0057AAAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5631394527A6D0CE0057AAAF /* PBXTargetDependency */,
+			);
+			name = "IOSWatchController WatchKit AppUITests";
+			productName = "IOSWatchController WatchKit AppUITests";
+			productReference = 5631394327A6D0CE0057AAAF /* IOSWatchController WatchKit AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		563138E827A6D0C90057AAAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					563138EF27A6D0C90057AAAF = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					563138FF27A6D0CB0057AAAF = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 563138EF27A6D0C90057AAAF;
+					};
+					5631390927A6D0CC0057AAAF = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 563138EF27A6D0C90057AAAF;
+					};
+					5631391327A6D0CC0057AAAF = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					5631391E27A6D0CD0057AAAF = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					5631393827A6D0CE0057AAAF = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 5631391E27A6D0CD0057AAAF;
+					};
+					5631394227A6D0CE0057AAAF = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 5631391327A6D0CC0057AAAF;
+					};
+				};
+			};
+			buildConfigurationList = 563138EB27A6D0C90057AAAF /* Build configuration list for PBXProject "IOSWatchController" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 563138E727A6D0C90057AAAF;
+			productRefGroup = 563138F127A6D0C90057AAAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				563138EF27A6D0C90057AAAF /* IOSWatchController */,
+				563138FF27A6D0CB0057AAAF /* IOSWatchControllerTests */,
+				5631390927A6D0CC0057AAAF /* IOSWatchControllerUITests */,
+				5631391327A6D0CC0057AAAF /* IOSWatchController WatchKit App */,
+				5631391E27A6D0CD0057AAAF /* IOSWatchController WatchKit Extension */,
+				5631393827A6D0CE0057AAAF /* IOSWatchController WatchKit AppTests */,
+				5631394227A6D0CE0057AAAF /* IOSWatchController WatchKit AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		563138EE27A6D0C90057AAAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563138FB27A6D0CB0057AAAF /* Preview Assets.xcassets in Resources */,
+				563138F827A6D0CB0057AAAF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563138FE27A6D0CB0057AAAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5631390827A6D0CC0057AAAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5631391227A6D0CC0057AAAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5631391A27A6D0CD0057AAAF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5631391D27A6D0CD0057AAAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5631393227A6D0CE0057AAAF /* Preview Assets.xcassets in Resources */,
+				5631392F27A6D0CE0057AAAF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5631393727A6D0CE0057AAAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5631394127A6D0CE0057AAAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		131B6D4E4C271508AC2E2ED7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IOSWatchControllerTests/Pods-IOSWatchControllerTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IOSWatchControllerTests/Pods-IOSWatchControllerTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IOSWatchControllerTests/Pods-IOSWatchControllerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C3B1AA8B74116E0EE208C68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IOSWatchController WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		407A0BE2DA02AFEFE783E7C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IOSWatchController WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B0ADF1EE53F7C1AB4A3E72D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IOSWatchController/Pods-IOSWatchController-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IOSWatchController/Pods-IOSWatchController-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IOSWatchController/Pods-IOSWatchController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E42435906B16D6CB10AACFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IOSWatchController WatchKit App-IOSWatchController WatchKit AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8296F6606F87CC46A3666AB9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IOSWatchController-IOSWatchControllerUITests/Pods-IOSWatchController-IOSWatchControllerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IOSWatchController-IOSWatchControllerUITests/Pods-IOSWatchController-IOSWatchControllerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IOSWatchController-IOSWatchControllerUITests/Pods-IOSWatchController-IOSWatchControllerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C047C8614366C58E3D4F6C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IOSWatchControllerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C01741CCE097BFDB60CED233 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IOSWatchController-IOSWatchControllerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F31C105B7FBF30ABFA408C97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IOSWatchController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F98A157CFF62E3C18270495C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IOSWatchController WatchKit AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		563138EC27A6D0C90057AAAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563138F627A6D0C90057AAAF /* ContentView.swift in Sources */,
+				563138F427A6D0C90057AAAF /* IOSWatchControllerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563138FC27A6D0CB0057AAAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5631390527A6D0CB0057AAAF /* IOSWatchControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5631390627A6D0CC0057AAAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5631391127A6D0CC0057AAAF /* IOSWatchControllerUITestsLaunchTests.swift in Sources */,
+				5631390F27A6D0CC0057AAAF /* IOSWatchControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5631391B27A6D0CD0057AAAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5631392927A6D0CD0057AAAF /* NotificationController.swift in Sources */,
+				5631392727A6D0CD0057AAAF /* ContentView.swift in Sources */,
+				5631392D27A6D0CD0057AAAF /* ComplicationController.swift in Sources */,
+				5631392527A6D0CD0057AAAF /* IOSWatchControllerApp.swift in Sources */,
+				5631392B27A6D0CD0057AAAF /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5631393527A6D0CE0057AAAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5631393E27A6D0CE0057AAAF /* IOSWatchController_WatchKit_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5631393F27A6D0CE0057AAAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5631394827A6D0CE0057AAAF /* IOSWatchController_WatchKit_AppUITests.swift in Sources */,
+				5631394A27A6D0CE0057AAAF /* IOSWatchController_WatchKit_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5631390227A6D0CB0057AAAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 563138EF27A6D0C90057AAAF /* IOSWatchController */;
+			targetProxy = 5631390127A6D0CB0057AAAF /* PBXContainerItemProxy */;
+		};
+		5631390C27A6D0CC0057AAAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 563138EF27A6D0C90057AAAF /* IOSWatchController */;
+			targetProxy = 5631390B27A6D0CC0057AAAF /* PBXContainerItemProxy */;
+		};
+		5631391727A6D0CC0057AAAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5631391327A6D0CC0057AAAF /* IOSWatchController WatchKit App */;
+			targetProxy = 5631391627A6D0CC0057AAAF /* PBXContainerItemProxy */;
+		};
+		5631392227A6D0CD0057AAAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5631391E27A6D0CD0057AAAF /* IOSWatchController WatchKit Extension */;
+			targetProxy = 5631392127A6D0CD0057AAAF /* PBXContainerItemProxy */;
+		};
+		5631393B27A6D0CE0057AAAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5631391E27A6D0CD0057AAAF /* IOSWatchController WatchKit Extension */;
+			targetProxy = 5631393A27A6D0CE0057AAAF /* PBXContainerItemProxy */;
+		};
+		5631394527A6D0CE0057AAAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5631391327A6D0CC0057AAAF /* IOSWatchController WatchKit App */;
+			targetProxy = 5631394427A6D0CE0057AAAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5631394B27A6D0CE0057AAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5631394C27A6D0CE0057AAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5631394E27A6D0CE0057AAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD42D8DC89993E9B434101E6 /* Pods-IOSWatchController WatchKit Extension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IOSWatchController WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = QP3T865764;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "IOSWatchController WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "IOSWatchController WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MacGang.IOSWatchController.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		5631394F27A6D0CE0057AAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8245A2528651B661B12018F5 /* Pods-IOSWatchController WatchKit Extension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IOSWatchController WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = QP3T865764;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "IOSWatchController WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "IOSWatchController WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MacGang.IOSWatchController.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		5631395227A6D0CE0057AAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BCBAC48E1EF597DF137B49A /* Pods-IOSWatchController WatchKit App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QP3T865764;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = IOSWatchController_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "IOSWatchController WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = MacGang.IOSWatchController;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MacGang.IOSWatchController.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		5631395327A6D0CE0057AAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3987817E897EE1B36277A124 /* Pods-IOSWatchController WatchKit App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QP3T865764;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = IOSWatchController_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "IOSWatchController WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = MacGang.IOSWatchController;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MacGang.IOSWatchController.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		5631395627A6D0CE0057AAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3767EA960DAE2EB1582E8427 /* Pods-IOSWatchController.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IOSWatchController/Preview Content\"";
+				DEVELOPMENT_TEAM = QP3T865764;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IOSWatchController/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "This app is cool";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MacGang.IOSWatchController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5631395727A6D0CE0057AAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C101D830F16B463078FD19A6 /* Pods-IOSWatchController.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IOSWatchController/Preview Content\"";
+				DEVELOPMENT_TEAM = QP3T865764;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IOSWatchController/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "This app is cool";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MacGang.IOSWatchController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5631395927A6D0CE0057AAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA240317559CA4CA600AD0AD /* Pods-IOSWatchControllerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QP3T865764;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MacGang.IOSWatchControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOSWatchController.app/IOSWatchController";
+			};
+			name = Debug;
+		};
+		5631395A27A6D0CE0057AAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDC82E749AD13D9CE37E2746 /* Pods-IOSWatchControllerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QP3T865764;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MacGang.IOSWatchControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOSWatchController.app/IOSWatchController";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5631395C27A6D0CE0057AAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 417A20E2A4A5061998375BBB /* Pods-IOSWatchController-IOSWatchControllerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QP3T865764;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MacGang.IOSWatchControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IOSWatchController;
+			};
+			name = Debug;
+		};
+		5631395D27A6D0CE0057AAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52B93705A2732EF3933C7EA0 /* Pods-IOSWatchController-IOSWatchControllerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QP3T865764;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MacGang.IOSWatchControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IOSWatchController;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5631395F27A6D0CE0057AAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E865C7E95E70FC11CCAA263 /* Pods-IOSWatchController WatchKit AppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QP3T865764;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MacGang.IOSWatchController-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOSWatchController WatchKit Extension.appex/IOSWatchController WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		5631396027A6D0CE0057AAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E038A2685F2955477769AFB4 /* Pods-IOSWatchController WatchKit AppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QP3T865764;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MacGang.IOSWatchController-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOSWatchController WatchKit Extension.appex/IOSWatchController WatchKit Extension";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		5631396227A6D0CE0057AAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 976394CD6E25C1573BAC256A /* Pods-IOSWatchController WatchKit App-IOSWatchController WatchKit AppUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QP3T865764;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MacGang.IOSWatchController-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "IOSWatchController WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		5631396327A6D0CE0057AAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 546C71AB540CDA2C5436BCE0 /* Pods-IOSWatchController WatchKit App-IOSWatchController WatchKit AppUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QP3T865764;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MacGang.IOSWatchController-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "IOSWatchController WatchKit App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		563138EB27A6D0C90057AAAF /* Build configuration list for PBXProject "IOSWatchController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5631394B27A6D0CE0057AAAF /* Debug */,
+				5631394C27A6D0CE0057AAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5631394D27A6D0CE0057AAAF /* Build configuration list for PBXNativeTarget "IOSWatchController WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5631394E27A6D0CE0057AAAF /* Debug */,
+				5631394F27A6D0CE0057AAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5631395127A6D0CE0057AAAF /* Build configuration list for PBXNativeTarget "IOSWatchController WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5631395227A6D0CE0057AAAF /* Debug */,
+				5631395327A6D0CE0057AAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5631395527A6D0CE0057AAAF /* Build configuration list for PBXNativeTarget "IOSWatchController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5631395627A6D0CE0057AAAF /* Debug */,
+				5631395727A6D0CE0057AAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5631395827A6D0CE0057AAAF /* Build configuration list for PBXNativeTarget "IOSWatchControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5631395927A6D0CE0057AAAF /* Debug */,
+				5631395A27A6D0CE0057AAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5631395B27A6D0CE0057AAAF /* Build configuration list for PBXNativeTarget "IOSWatchControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5631395C27A6D0CE0057AAAF /* Debug */,
+				5631395D27A6D0CE0057AAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5631395E27A6D0CE0057AAAF /* Build configuration list for PBXNativeTarget "IOSWatchController WatchKit AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5631395F27A6D0CE0057AAAF /* Debug */,
+				5631396027A6D0CE0057AAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5631396127A6D0CE0057AAAF /* Build configuration list for PBXNativeTarget "IOSWatchController WatchKit AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5631396227A6D0CE0057AAAF /* Debug */,
+				5631396327A6D0CE0057AAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 563138E827A6D0C90057AAAF /* Project object */;
+}

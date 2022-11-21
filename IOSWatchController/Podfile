@@ -1,0 +1,48 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'IOSWatchController' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'CocoaAsyncSocket'
+  # Pods for IOSWatchController
+
+  target 'IOSWatchControllerTests' do
+    inherit! :search_paths
+    pod 'CocoaAsyncSocket'
+    # Pods for testing
+  end
+
+  target 'IOSWatchControllerUITests' do
+    # Pods for testing
+    pod 'CocoaAsyncSocket'
+  end
+
+end
+
+target 'IOSWatchController WatchKit App' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for IOSWatchController WatchKit App
+
+  target 'IOSWatchController WatchKit AppTests' do
+    inherit! :search_paths
+
+    # Pods for testing
+  end
+
+  target 'IOSWatchController WatchKit AppUITests' do
+    # Pods for testing
+
+  end
+
+end
+
+target 'IOSWatchController WatchKit Extension' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for IOSWatchController WatchKit Extension
+
+end

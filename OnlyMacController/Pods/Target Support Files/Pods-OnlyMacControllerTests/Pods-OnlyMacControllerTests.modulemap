@@ -1,0 +1,6 @@
+framework module Pods_OnlyMacControllerTests {
+  umbrella header "Pods-OnlyMacControllerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

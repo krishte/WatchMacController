@@ -1,0 +1,829 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5625B30B27B7F5510086C63A /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5625B30A27B7F5510086C63A /* PythonKit */; };
+		56B31A5C279D7B22001C22DC /* OnlyMacControllerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B31A5B279D7B22001C22DC /* OnlyMacControllerApp.swift */; };
+		56B31A5E279D7B22001C22DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B31A5D279D7B22001C22DC /* ContentView.swift */; };
+		56B31A60279D7B23001C22DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56B31A5F279D7B23001C22DC /* Assets.xcassets */; };
+		56B31A63279D7B23001C22DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56B31A62279D7B23001C22DC /* Preview Assets.xcassets */; };
+		56B31A65279D7B23001C22DC /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B31A64279D7B23001C22DC /* Persistence.swift */; };
+		56B31A68279D7B23001C22DC /* OnlyMacController.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 56B31A66279D7B23001C22DC /* OnlyMacController.xcdatamodeld */; };
+		56B31A73279D7B24001C22DC /* OnlyMacControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B31A72279D7B24001C22DC /* OnlyMacControllerTests.swift */; };
+		56B31A7D279D7B24001C22DC /* OnlyMacControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B31A7C279D7B24001C22DC /* OnlyMacControllerUITests.swift */; };
+		56B31A7F279D7B24001C22DC /* OnlyMacControllerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B31A7E279D7B24001C22DC /* OnlyMacControllerUITestsLaunchTests.swift */; };
+		671A900A1EA28D7E128BD749 /* Pods_OnlyMacControllerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A8758421A36F083F528669 /* Pods_OnlyMacControllerTests.framework */; };
+		9E9F197BF42352221041CE81 /* Pods_OnlyMacController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA5CF4B72A5D9563B8705821 /* Pods_OnlyMacController.framework */; };
+		E915A856CC2D643613942E08 /* Pods_OnlyMacController_OnlyMacControllerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 296DC7C29C4D8B567ED4670D /* Pods_OnlyMacController_OnlyMacControllerUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56B31A6F279D7B24001C22DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56B31A50279D7B22001C22DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56B31A57279D7B22001C22DC;
+			remoteInfo = OnlyMacController;
+		};
+		56B31A79279D7B24001C22DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56B31A50279D7B22001C22DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56B31A57279D7B22001C22DC;
+			remoteInfo = OnlyMacController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		296DC7C29C4D8B567ED4670D /* Pods_OnlyMacController_OnlyMacControllerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnlyMacController_OnlyMacControllerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41D4941768A9BD0EE46E7997 /* Pods-OnlyMacController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnlyMacController.release.xcconfig"; path = "Target Support Files/Pods-OnlyMacController/Pods-OnlyMacController.release.xcconfig"; sourceTree = "<group>"; };
+		491B4BE46EC3A15FC6167C1A /* Pods-OnlyMacControllerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnlyMacControllerTests.debug.xcconfig"; path = "Target Support Files/Pods-OnlyMacControllerTests/Pods-OnlyMacControllerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		56B31A58279D7B22001C22DC /* OnlyMacController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlyMacController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56B31A5B279D7B22001C22DC /* OnlyMacControllerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlyMacControllerApp.swift; sourceTree = "<group>"; };
+		56B31A5D279D7B22001C22DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		56B31A5F279D7B23001C22DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56B31A62279D7B23001C22DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		56B31A64279D7B23001C22DC /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		56B31A67279D7B23001C22DC /* OnlyMacController.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OnlyMacController.xcdatamodel; sourceTree = "<group>"; };
+		56B31A69279D7B23001C22DC /* OnlyMacController.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OnlyMacController.entitlements; sourceTree = "<group>"; };
+		56B31A6E279D7B24001C22DC /* OnlyMacControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnlyMacControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56B31A72279D7B24001C22DC /* OnlyMacControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlyMacControllerTests.swift; sourceTree = "<group>"; };
+		56B31A78279D7B24001C22DC /* OnlyMacControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnlyMacControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56B31A7C279D7B24001C22DC /* OnlyMacControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlyMacControllerUITests.swift; sourceTree = "<group>"; };
+		56B31A7E279D7B24001C22DC /* OnlyMacControllerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlyMacControllerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5B93FCECC7716E008C9DBC59 /* Pods-OnlyMacController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnlyMacController.debug.xcconfig"; path = "Target Support Files/Pods-OnlyMacController/Pods-OnlyMacController.debug.xcconfig"; sourceTree = "<group>"; };
+		78D4CE7E9F02AF8016A77528 /* Pods-OnlyMacControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnlyMacControllerTests.release.xcconfig"; path = "Target Support Files/Pods-OnlyMacControllerTests/Pods-OnlyMacControllerTests.release.xcconfig"; sourceTree = "<group>"; };
+		906A009A2E24FB0D49CC0B9F /* Pods-OnlyMacController-OnlyMacControllerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnlyMacController-OnlyMacControllerUITests.debug.xcconfig"; path = "Target Support Files/Pods-OnlyMacController-OnlyMacControllerUITests/Pods-OnlyMacController-OnlyMacControllerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA5CF4B72A5D9563B8705821 /* Pods_OnlyMacController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnlyMacController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A8758421A36F083F528669 /* Pods_OnlyMacControllerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnlyMacControllerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED723DD96245372CEAE77AF7 /* Pods-OnlyMacController-OnlyMacControllerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnlyMacController-OnlyMacControllerUITests.release.xcconfig"; path = "Target Support Files/Pods-OnlyMacController-OnlyMacControllerUITests/Pods-OnlyMacController-OnlyMacControllerUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56B31A55279D7B22001C22DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E9F197BF42352221041CE81 /* Pods_OnlyMacController.framework in Frameworks */,
+				5625B30B27B7F5510086C63A /* PythonKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56B31A6B279D7B24001C22DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				671A900A1EA28D7E128BD749 /* Pods_OnlyMacControllerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56B31A75279D7B24001C22DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E915A856CC2D643613942E08 /* Pods_OnlyMacController_OnlyMacControllerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56B31A4F279D7B22001C22DC = {
+			isa = PBXGroup;
+			children = (
+				56B31A5A279D7B22001C22DC /* OnlyMacController */,
+				56B31A71279D7B24001C22DC /* OnlyMacControllerTests */,
+				56B31A7B279D7B24001C22DC /* OnlyMacControllerUITests */,
+				56B31A59279D7B22001C22DC /* Products */,
+				5F6AFE75AF0AD9005173DF6D /* Pods */,
+				B1EC52B2DB30EC7F17350EDD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		56B31A59279D7B22001C22DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56B31A58279D7B22001C22DC /* OnlyMacController.app */,
+				56B31A6E279D7B24001C22DC /* OnlyMacControllerTests.xctest */,
+				56B31A78279D7B24001C22DC /* OnlyMacControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56B31A5A279D7B22001C22DC /* OnlyMacController */ = {
+			isa = PBXGroup;
+			children = (
+				56B31A5B279D7B22001C22DC /* OnlyMacControllerApp.swift */,
+				56B31A5D279D7B22001C22DC /* ContentView.swift */,
+				56B31A5F279D7B23001C22DC /* Assets.xcassets */,
+				56B31A64279D7B23001C22DC /* Persistence.swift */,
+				56B31A69279D7B23001C22DC /* OnlyMacController.entitlements */,
+				56B31A66279D7B23001C22DC /* OnlyMacController.xcdatamodeld */,
+				56B31A61279D7B23001C22DC /* Preview Content */,
+			);
+			path = OnlyMacController;
+			sourceTree = "<group>";
+		};
+		56B31A61279D7B23001C22DC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				56B31A62279D7B23001C22DC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		56B31A71279D7B24001C22DC /* OnlyMacControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				56B31A72279D7B24001C22DC /* OnlyMacControllerTests.swift */,
+			);
+			path = OnlyMacControllerTests;
+			sourceTree = "<group>";
+		};
+		56B31A7B279D7B24001C22DC /* OnlyMacControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				56B31A7C279D7B24001C22DC /* OnlyMacControllerUITests.swift */,
+				56B31A7E279D7B24001C22DC /* OnlyMacControllerUITestsLaunchTests.swift */,
+			);
+			path = OnlyMacControllerUITests;
+			sourceTree = "<group>";
+		};
+		5F6AFE75AF0AD9005173DF6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B93FCECC7716E008C9DBC59 /* Pods-OnlyMacController.debug.xcconfig */,
+				41D4941768A9BD0EE46E7997 /* Pods-OnlyMacController.release.xcconfig */,
+				906A009A2E24FB0D49CC0B9F /* Pods-OnlyMacController-OnlyMacControllerUITests.debug.xcconfig */,
+				ED723DD96245372CEAE77AF7 /* Pods-OnlyMacController-OnlyMacControllerUITests.release.xcconfig */,
+				491B4BE46EC3A15FC6167C1A /* Pods-OnlyMacControllerTests.debug.xcconfig */,
+				78D4CE7E9F02AF8016A77528 /* Pods-OnlyMacControllerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B1EC52B2DB30EC7F17350EDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA5CF4B72A5D9563B8705821 /* Pods_OnlyMacController.framework */,
+				296DC7C29C4D8B567ED4670D /* Pods_OnlyMacController_OnlyMacControllerUITests.framework */,
+				C6A8758421A36F083F528669 /* Pods_OnlyMacControllerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56B31A57279D7B22001C22DC /* OnlyMacController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56B31A82279D7B24001C22DC /* Build configuration list for PBXNativeTarget "OnlyMacController" */;
+			buildPhases = (
+				43E1F766B41CE790F2DFC451 /* [CP] Check Pods Manifest.lock */,
+				56B31A54279D7B22001C22DC /* Sources */,
+				56B31A55279D7B22001C22DC /* Frameworks */,
+				56B31A56279D7B22001C22DC /* Resources */,
+				4F118B10E2A0599E0903503C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OnlyMacController;
+			packageProductDependencies = (
+				5625B30A27B7F5510086C63A /* PythonKit */,
+			);
+			productName = OnlyMacController;
+			productReference = 56B31A58279D7B22001C22DC /* OnlyMacController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56B31A6D279D7B24001C22DC /* OnlyMacControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56B31A85279D7B24001C22DC /* Build configuration list for PBXNativeTarget "OnlyMacControllerTests" */;
+			buildPhases = (
+				35BE5D2679240F2AB5D900D0 /* [CP] Check Pods Manifest.lock */,
+				56B31A6A279D7B24001C22DC /* Sources */,
+				56B31A6B279D7B24001C22DC /* Frameworks */,
+				56B31A6C279D7B24001C22DC /* Resources */,
+				ED9AA77A29A495FD57FD9602 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56B31A70279D7B24001C22DC /* PBXTargetDependency */,
+			);
+			name = OnlyMacControllerTests;
+			productName = OnlyMacControllerTests;
+			productReference = 56B31A6E279D7B24001C22DC /* OnlyMacControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		56B31A77279D7B24001C22DC /* OnlyMacControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56B31A88279D7B24001C22DC /* Build configuration list for PBXNativeTarget "OnlyMacControllerUITests" */;
+			buildPhases = (
+				35E28E5A0FA43C37B5B4A057 /* [CP] Check Pods Manifest.lock */,
+				56B31A74279D7B24001C22DC /* Sources */,
+				56B31A75279D7B24001C22DC /* Frameworks */,
+				56B31A76279D7B24001C22DC /* Resources */,
+				CE47E72B54EF749034DD54BA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56B31A7A279D7B24001C22DC /* PBXTargetDependency */,
+			);
+			name = OnlyMacControllerUITests;
+			productName = OnlyMacControllerUITests;
+			productReference = 56B31A78279D7B24001C22DC /* OnlyMacControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56B31A50279D7B22001C22DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					56B31A57279D7B22001C22DC = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					56B31A6D279D7B24001C22DC = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 56B31A57279D7B22001C22DC;
+					};
+					56B31A77279D7B24001C22DC = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 56B31A57279D7B22001C22DC;
+					};
+				};
+			};
+			buildConfigurationList = 56B31A53279D7B22001C22DC /* Build configuration list for PBXProject "OnlyMacController" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56B31A4F279D7B22001C22DC;
+			packageReferences = (
+				5625B30927B7F5510086C63A /* XCRemoteSwiftPackageReference "PythonKit" */,
+			);
+			productRefGroup = 56B31A59279D7B22001C22DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56B31A57279D7B22001C22DC /* OnlyMacController */,
+				56B31A6D279D7B24001C22DC /* OnlyMacControllerTests */,
+				56B31A77279D7B24001C22DC /* OnlyMacControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56B31A56279D7B22001C22DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B31A63279D7B23001C22DC /* Preview Assets.xcassets in Resources */,
+				56B31A60279D7B23001C22DC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56B31A6C279D7B24001C22DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56B31A76279D7B24001C22DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35BE5D2679240F2AB5D900D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OnlyMacControllerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35E28E5A0FA43C37B5B4A057 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OnlyMacController-OnlyMacControllerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43E1F766B41CE790F2DFC451 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OnlyMacController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F118B10E2A0599E0903503C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OnlyMacController/Pods-OnlyMacController-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OnlyMacController/Pods-OnlyMacController-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OnlyMacController/Pods-OnlyMacController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE47E72B54EF749034DD54BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OnlyMacController-OnlyMacControllerUITests/Pods-OnlyMacController-OnlyMacControllerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OnlyMacController-OnlyMacControllerUITests/Pods-OnlyMacController-OnlyMacControllerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OnlyMacController-OnlyMacControllerUITests/Pods-OnlyMacController-OnlyMacControllerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED9AA77A29A495FD57FD9602 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OnlyMacControllerTests/Pods-OnlyMacControllerTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OnlyMacControllerTests/Pods-OnlyMacControllerTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OnlyMacControllerTests/Pods-OnlyMacControllerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56B31A54279D7B22001C22DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B31A65279D7B23001C22DC /* Persistence.swift in Sources */,
+				56B31A68279D7B23001C22DC /* OnlyMacController.xcdatamodeld in Sources */,
+				56B31A5E279D7B22001C22DC /* ContentView.swift in Sources */,
+				56B31A5C279D7B22001C22DC /* OnlyMacControllerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56B31A6A279D7B24001C22DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B31A73279D7B24001C22DC /* OnlyMacControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56B31A74279D7B24001C22DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B31A7F279D7B24001C22DC /* OnlyMacControllerUITestsLaunchTests.swift in Sources */,
+				56B31A7D279D7B24001C22DC /* OnlyMacControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56B31A70279D7B24001C22DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56B31A57279D7B22001C22DC /* OnlyMacController */;
+			targetProxy = 56B31A6F279D7B24001C22DC /* PBXContainerItemProxy */;
+		};
+		56B31A7A279D7B24001C22DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56B31A57279D7B22001C22DC /* OnlyMacController */;
+			targetProxy = 56B31A79279D7B24001C22DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		56B31A80279D7B24001C22DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56B31A81279D7B24001C22DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		56B31A83279D7B24001C22DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B93FCECC7716E008C9DBC59 /* Pods-OnlyMacController.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OnlyMacController/OnlyMacController.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OnlyMacController/Preview Content\"";
+				DEVELOPMENT_TEAM = QP3T865764;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MacGang.OnlyMacController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		56B31A84279D7B24001C22DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41D4941768A9BD0EE46E7997 /* Pods-OnlyMacController.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OnlyMacController/OnlyMacController.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OnlyMacController/Preview Content\"";
+				DEVELOPMENT_TEAM = QP3T865764;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MacGang.OnlyMacController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		56B31A86279D7B24001C22DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 491B4BE46EC3A15FC6167C1A /* Pods-OnlyMacControllerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QP3T865764;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MacGang.OnlyMacControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnlyMacController.app/Contents/MacOS/OnlyMacController";
+			};
+			name = Debug;
+		};
+		56B31A87279D7B24001C22DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78D4CE7E9F02AF8016A77528 /* Pods-OnlyMacControllerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QP3T865764;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MacGang.OnlyMacControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnlyMacController.app/Contents/MacOS/OnlyMacController";
+			};
+			name = Release;
+		};
+		56B31A89279D7B24001C22DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 906A009A2E24FB0D49CC0B9F /* Pods-OnlyMacController-OnlyMacControllerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QP3T865764;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MacGang.OnlyMacControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = OnlyMacController;
+			};
+			name = Debug;
+		};
+		56B31A8A279D7B24001C22DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED723DD96245372CEAE77AF7 /* Pods-OnlyMacController-OnlyMacControllerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QP3T865764;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MacGang.OnlyMacControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = OnlyMacController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56B31A53279D7B22001C22DC /* Build configuration list for PBXProject "OnlyMacController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56B31A80279D7B24001C22DC /* Debug */,
+				56B31A81279D7B24001C22DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56B31A82279D7B24001C22DC /* Build configuration list for PBXNativeTarget "OnlyMacController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56B31A83279D7B24001C22DC /* Debug */,
+				56B31A84279D7B24001C22DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56B31A85279D7B24001C22DC /* Build configuration list for PBXNativeTarget "OnlyMacControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56B31A86279D7B24001C22DC /* Debug */,
+				56B31A87279D7B24001C22DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56B31A88279D7B24001C22DC /* Build configuration list for PBXNativeTarget "OnlyMacControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56B31A89279D7B24001C22DC /* Debug */,
+				56B31A8A279D7B24001C22DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5625B30927B7F5510086C63A /* XCRemoteSwiftPackageReference "PythonKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pvieito/PythonKit.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5625B30A27B7F5510086C63A /* PythonKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5625B30927B7F5510086C63A /* XCRemoteSwiftPackageReference "PythonKit" */;
+			productName = PythonKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		56B31A66279D7B23001C22DC /* OnlyMacController.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				56B31A67279D7B23001C22DC /* OnlyMacController.xcdatamodel */,
+			);
+			currentVersion = 56B31A67279D7B23001C22DC /* OnlyMacController.xcdatamodel */;
+			path = OnlyMacController.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 56B31A50279D7B22001C22DC /* Project object */;
+}
